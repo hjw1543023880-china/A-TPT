@@ -35,20 +35,20 @@ We follow [TPT](https://github.com/azshue/TPT) dataset layout. Please download r
 - `Caltech101`, `DTD`, `Flower102`, `Food101`, `Cars`, `SUN397`, `Aircraft`, `Pets`, `UCF101`, `eurosat` use few-shot style splits with json files
 
 Example layout:
-
+```bash
 /path/to/your/dataset
-
-└─ dtd\
-   ├─ images\
-   │  ├─ banded\
-   │  │  ├─ banded_0002.jpg
-   │  │  └─ ...
-   │  ├─ blotchy\
-   │  └─ ... 
-   ├─ dtd\
-   │  └─ split_zhou_DescribableTextures.json
-   ├─ labels\        
-   └─ imdb\         
+    └─ dtd\
+       ├─ images\
+       │  ├─ banded\
+       │  │  ├─ banded_0002.jpg
+       │  │  └─ ...
+       │  ├─ blotchy\
+       │  └─ ... 
+       ├─ dtd\
+       │  └─ split_zhou_DescribableTextures.json
+       ├─ labels\        
+       └─ imdb\         
+```
 
 ## 4. Quick Start
 
